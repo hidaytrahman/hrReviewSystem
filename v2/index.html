@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Review System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-wrapper">
+      <header>
+        <h1>HR Review System </h1>
+      </header>
+
+        <div class="user-details-wrapper">
+            <input type="text" id="userName" placeholder="Whats your name?">
+            <button id="goBtn">Go</button>
+        </div>
+        <!-- User details section end here -->
+
+        <div class="review-wrapper" style="display: block">
+            <header class="header">
+                <h2>Hidayt Company</h2>
+            </header>
+
+            <section class="review-inputs">
+                <label>Rating </label>
+                <input type="range" id="rating" min="1" max="5" placeholder="Enter rating">
+
+                <!--
+                <div class="rating stars">
+                  <span class="star" data-val="1">*</span>
+                  <span class="star" data-val="2">*</span>
+                  <span class="star" data-val="3">*</span>
+                  <span class="star" data-val="4">*</span>
+                  <span class="star" data-val="5">*</span>
+              </div>
+            -->
+                <input type="text" id="ratingTitle" placeholder="Enter title">
+                <textarea id="reviewText" placeholder="Enter review in brief"></textarea>
+                <button id="addReviewBtn">add review</button>
+                <br>
+            </section>
+            <!-- Input section end here -->
+
+            <section class="display-review-wrapper">
+                No review found :(
+            </section>
+
+            <footer>
+                <p>HR Review System @ 2020</p>
+            </footer>
+        </div>
+    </div>
+
+<script src="js/script.js"></script>
+<script src="js/landing.js"></script>
+</body>
+</html>

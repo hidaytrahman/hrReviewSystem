@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Review System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-wrapper">
+      <header>
+        <h1>HR Review System </h1>
+      </header>
+
+        <div class="user-details-wrapper">
+            <input type="text" id="userName" placeholder="Whats your name?">
+            <button id="goBtn">Go</button>
+        </div>
+
+        <div class="review-wrapper">
+            <header class="header">
+                <h2>Hidayt Company</h2>
+            </header>
+            <section class="review-inputs">
+
+                <input type="number" id="rating" placeholder="Enter rating">
+                <input type="text" id="ratingTitle" placeholder="Enter title">
+
+                <textarea id="reviewText" placeholder="Enter review in brief"></textarea>
+
+
+               <button id="addReviewBtn">add review</button>
+                <br>
+
+            </section>
+
+            <section class="display-review-wrapper">
+                No review found :(
+            </section>
+
+            <footer>
+                <p>HR Review System @ 2020</p>
+            </footer>
+        </div>
+    </div>
+
+<script src="js/script.js"></script>
+<script src="js/landing.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+input[type='text'],
+input[type='number'],
+textarea {
+    border: 0;
+    padding: 6px;
+    font-size: 14px;
+    background: transparent;
+    border-bottom: 1px solid #c4c4c4;
+    outline: none;
+    width: 96%;
+    margin: 15px 0;
+}
+
+
+button,
+select {
+    padding: 5px 15px;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button {
+  background: #8BC34A;
+padding: 13px 17px;
+text-align: center;
+color: #f6ecec;
+display: block;
+margin-left: 11px;
+border-radius: 4px
+}
+
+header {
+  background: #f2f2f2;
+padding: 2rem 0;
+color: #6a6a6a;
+}
+
+.review-wrapper header {
+  padding: 1rem;
+  background: #f9f9f9;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-wrapper {
+
+}
+
+.review-inputs {
+  margin: 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 1%;
+}
+
+.display-review-wrapper {
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+#userName {
+  font-size: 3rem;
+  margin: 0 auto;
+}
+
+.user-details-wrapper {
+  display: flex;
+  max-width: 600px;
+  align-items: normal;
+  margin: 5rem auto;
+}
+
+.review-wrapper {
+  margin: 2rem auto;
+  max-width: 1024px;
+  border: 1px solid #dfdcdc;
+  color: #7a7171;
+  display: none;
+}
+
+.each-review {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #f6f6f6;
+  font-size: 13px;
+  position: relative;
+}
+
+.each-review .review-title {
+  font-size: 21px;
+      font-weight: 700;
+      margin: 0.2rem 0;
+}
+
+.each-review .review-rating {
+    color: #FF9800;
+}
+
+.each-review .review-description {
+    margin: 0.4rem 0;
+}
+
+.each-review .reviewer {
+  text-align: right;
+  font-weight: 600;
+}
+
+.each-review .recommendation-type {
+  position: absolute;
+    background: #9E9E9E;
+    padding: 5px;
+    color: #fff;
+    right: 0;
+    top: 0;
+    border-radius: 2px;
+  }
+
+  .each-review .recommendation-type.positive {
+    background: #8BC34A;
+  }
+
+  .each-review .recommendation-type.negative {
+    background: #f76358;
+  }
+
+  .each-review .review-date {
+    color: #bbb3b3;
+        font-size: 12px;
+  }
